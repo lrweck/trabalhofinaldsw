@@ -43,6 +43,7 @@ public class FunilResource {
     }
 
     @GET
+    /* Para testar a autenticação, é necessário comentar o @ abaixo */
     @JWTAutenticarTokenInterface
     @Produces(MediaType.APPLICATION_JSON)
     @Path("/{idFunil}")

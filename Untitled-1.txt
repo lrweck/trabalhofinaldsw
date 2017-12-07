@@ -1,0 +1,33 @@
+PRODUTO
+
+{	
+	"nome":"nome",
+	"descricao":"descricao",
+	"caminho_img":"caminho_img",
+	"valor":"5",
+	"dataInc":"03/12/2017 05:05:05",
+	"dataAtu":"03/12/2017 05:05:05",
+	"funil":"5"
+}
+
+
+USUARIO
+
+{
+	"nome": "carlos",
+	"login": "luisr",
+	"senha": "senhasuperfoda",
+	"email": "telefone",
+	"dataInc": "03/12/2017 05:05:05",
+	"dataAtu": "03/12/2017 05:05:05",
+	"funil": "4",
+	"telefone": "473574368"
+}
+private String nome;
+private String login;
+private String senha;
+private String email;
+private String telefone;
+private String dataInc;
+private String dataAtu;
+private byte funil;

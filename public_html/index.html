@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Cadastro de empresa</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/jquery-3.2.1.js"></script>
+        <script src="js/cad-empresa.js"></script>
+    </head>
+    <body>
+        <h1>Cadastro de empresa</h1>
+        <table>
+            <tr>
+                <td>
+                    <label>Nome da Empresa:</label>
+                </td>
+                <td>
+                    <input id="nome-empresa" type="text" name="empresa" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>CNPJ:</label>
+                </td>
+                <td>
+                    <input id="cnpj-empresa" type="text" name="cnpj" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Email:</label>
+                </td>
+                <td>
+                    <input id="email-empresa" type="text" name="email" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Telefone:</label>
+                </td>
+                <td>
+                    <input id="telefone-empresa" type="text" name="telefone" />
+                </td>
+            </tr>
+        </table>
+
+        <input class="layout" type="radio" name="layout" value="1" checked/> Layout 1 Farmácia
+        <input class="layout" type="radio" name="layout" value="2"/> Layout 2 Farmácia
+        <input class="layout" type="radio" name="layout" value="3"/> Layout 3 Farmácia<br /><br />
+
+        <input id="enviar" type="button" value="Enviar" />
+        <input id="clear" type="button" value="Clear session" />
+    </body>
+</html>

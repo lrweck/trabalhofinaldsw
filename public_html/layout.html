@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/layout.css">
+        <script src="js/jquery-3.2.1.js"></script>
+        <script src="js/layout.js"></script>
+    </head>
+    <body>
+        <input id="gerenciador" type="button" value="Gerenciador do site"/>
+        <h1 id="title"></h1>
+        <h2 id="cnpj"></h2>
+        <input id="cadastre-se" type="button" value="Cadastre-se"/>
+        <div id="cadastro">
+            <table>
+                <tr>
+                    <td>
+                        <label>Nome:</label>
+                    </td>
+                    <td>
+                        <input id="cadastro-nome" type="text" name="cadastro-nome" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Telefone:</label>
+                    </td>
+                    <td>
+                        <input id="cadastro-telefone" type="text" name="cadastro-telefone" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Email:</label>
+                    </td>
+                    <td>
+                        <input id="cadastro-email" type="text" name="cadastro-email" />
+                    </td>
+                </tr>
+                <input type="radio" name="cadastro-tipo" value="1" checked/> Telefone
+                <input type="radio" name="cadastro-tipo" value="2" /> E-mail
+                <input type="radio" name="cadastro-tipo" value="3" /> Site
+            </table>
+            
+            <input id="registrar-contato" type="button" value="Registrar contato" />
+        </div>
+        
+        <div id="lista-produtos"></div>
+    </body>
+</html>

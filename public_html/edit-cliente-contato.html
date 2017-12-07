@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Editar ou excluir um cliente / contato</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/jquery-3.2.1.js"></script>
+        <script src="js/edit-cliente-contato.js"></script>
+    </head>
+    <body>
+        <h1>Editar ou excluir um cliente / contato</h1>
+        <label>Tipo de cadastro:</label>
+        <input type="radio" name="cliente-contato" value="1" checked/> Contato
+        <input type="radio" name="cliente-contato" value="2" /> Cliente<br /><br />
+        <label>Digite o nome: </label>
+        <input id="busca" type="text" name="busca" />
+        <input id="pesquisar" type="button" value="Pesquisar"/><br /><br />
+
+        <div id="resultado">
+            <table id="table-resultados">
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th> 
+                    <th>Email</th>
+                    <th>Tipo de Contato</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                
+            </table>
+        </div><br />
+
+        <input id="voltar" type="button" value="Voltar"/>
+    </body>
+</html>

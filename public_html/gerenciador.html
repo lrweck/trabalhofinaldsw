@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Bem vindo ao gerenciador de conteúdo do site</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/jquery-3.2.1.js"></script>
+        <script src="js/gerenciador.js"></script>
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+    </head>
+    <body>
+        <h1>Bem vindo ao gerenciador de conteúdo do site</h1>
+        <input id="voltar" type="button" value="Voltar ao site" />
+        <input id="logout" type="button" value="Logout" />
+        <ul>
+            <li>
+                <a href="cad-usuario.html">
+                    Cadastrar usuário
+                </a>
+            </li>
+            <li>
+                <a href="cad-produto.html">
+                    Cadastrar produto
+                </a>
+            </li>
+            <li id="select-layout">
+            </li>
+            <li>
+                <a href="cad-cliente-contato.html">
+                    Cadastrar cliente / contato
+                </a>
+            </li>
+            <li>
+                <a href="edit-cliente-contato.html">
+                    Editar ou excluir um cliente / contato
+                </a>
+            </li>
+        </ul>
+        
+        <div>
+            <label>Gráfico de contato:</label>
+            <div id="graf-contato"></div>
+        </div>
+        <div>
+            <label>Gráfico de clientes:</label>
+            <div id="graf-cliente"></div>
+        </div>
+        <div>
+            <label>Gráfico de produtos:</label>
+            <div id="graf-produto"></div>
+        </div>
+    </body>
+</html>

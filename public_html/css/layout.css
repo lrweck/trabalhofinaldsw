@@ -1,0 +1,25 @@
+.produto
+{
+    float: left;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+}
+
+.img-produto
+{
+    width: 200px;
+}
+
+.h1-layout1
+{
+    text-align: center;
+}
+.h1-layout2
+{
+    text-align: left;
+}
+.h1-layout3
+{
+    text-align: right;
+}
